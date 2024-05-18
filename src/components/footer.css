@@ -1,0 +1,39 @@
+
+/* footer */
+.footer {
+    text-align: center;
+    margin: 2rem auto;
+    display: grid;
+    gap: 1rem;
+  }
+  .social-icons__list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-inline-start: 0;
+  }
+  
+  .social-icons__list svg {
+    width: 1rem;
+    height: 1rem;
+    fill: var(--clr-primary-400);
+  }
+  
+  .social-icons__list--item {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--clr-neutral-400);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .social-icons__list--item:hover,.social-icons__list--item:focus-visible{
+    background-color: var(--clr-primary-400);
+  }
+  
+  .social-icons__list--item:hover svg {
+    fill: var(--clr-neutral-100);
+  }
